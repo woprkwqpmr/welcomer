@@ -4,7 +4,7 @@ client.on('guildMemberAdd', member => {
 const mohamed= member.guild.channels.get("515208390855884831");
 if(!mohamed) return;
 if(mohamed) {
-setTimeout(() => mohamed.send(` ``Welcome to !legends united`` :revolving_hearts: `), 4000)        
+setTimeout(() => mohamed.send(` Welcome to !legends united :revolving_hearts: `), 4000)        
 }
 });
  
